@@ -1,0 +1,17 @@
+JSX
+const foo = <h1>Hello!</h1>
+here HTML code that can be a value in javascript that we can assign it to some variable, we can loop over and do calculation on
+Bable -> it translate this sort of code above to regulat js so browers can unserstand.
+In React we divide our app into components that make it up and to display every component we use render fun
+ReactDOM library takes React Component and put them into out dom/page.
+also we can nest components with in each-other. 
+We also add props(attributes) to these componenets and pass args ex-> we can provide name props to Hello component and inside Hello component we can use it.
+so to get name property of those props we can say like Hello {this.props.name} and plug in it there. this is referring to this Component and some other component can render
+bunch of this component with and each of which provided with different name props. and {} means plug in some js value here
+in prodution we seperate each component into different js flie and combine them
+
+State->
+The initial state we need to define when we create the component. in constructor we define the state of app means what it is that this Component needs to kepp track of.
+this.setState() fun takes/ we passing in js object and its going to let us change the state of app and React make sure to provide it current value of state(oldstate) and newstate is
+going to be function of oldstate and u should never modify state directly
+list.splice(index, 1) => remove element at this index
